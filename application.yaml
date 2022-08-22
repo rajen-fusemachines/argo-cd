@@ -7,7 +7,7 @@ spec:
   project: default
 
   source:
-    repoURL: https://github.com/fusemachines-clients/fuse-argo # Remote Github repository where ArgoCD should pull configurations from.
+    repoURL: https://github.com/rajen-fusemachines/argocd-deployments  # Remote Github repository where ArgoCD should pull configurations from.
     targetRevision: HEAD # The last commit in the remote repository.
     path: dev # Track and sync the dev path in the repository.
   destination: 
